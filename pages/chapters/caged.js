@@ -1,6 +1,11 @@
+import ChapterLayout from '../../components/layouts/ChapterLayout';
+
 const Caged = () => {
+  const title = 'Caged';
+  const image = '/blue-city.jpg';
+
   return (
-    <>
+    <ChapterLayout title={title} image={image}>
       <p>
         One day, on the job cleaning a deep chimney, the boy stumbled upon a
         secret tunnel. He followed it and on the other end was an enormous
@@ -15,7 +20,7 @@ const Caged = () => {
       <p>Gazing up towards the sky, wanting to get out but trapped.</p>
 
       <p>It was here, the boy decided it was time… he released the shackles.</p>
-    </>
+    </ChapterLayout>
   );
 };
 
