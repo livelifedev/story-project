@@ -7,7 +7,7 @@ const Header = () => {
       <Link href="/about">
         <a>About</a>
       </Link>
-      <Link as={`/chapters/${chapter.name}`} href={`/chapters/${chapter.name}`}>
+      <Link href="/chapters/cover">
         <a>Read</a>
       </Link>
       <Link href="/chapters">
