@@ -20,12 +20,13 @@ const Header = () => {
       <style jsx>
         {`
           .header-container {
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             text-align: right;
+            padding-bottom: 10px;
           }
 
           a {
-            padding-right: 8px;
+            padding-right: 15px;
           }
         `}
       </style>

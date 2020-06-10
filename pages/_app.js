@@ -1,7 +1,8 @@
 const App = ({ Component, pageProps }) => {
   return (
     <>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
+
       <style jsx global>
         {`
           html {

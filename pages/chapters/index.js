@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import Layout from '../../components/layouts/Layout';
-import Caged from '../../components/chapters/Caged';
 
 const About = () => {
   const [image, setImage] = useState('/blue-city.jpg');
@@ -15,9 +14,7 @@ const About = () => {
       </div>
 
       <div className="chapter-container">
-        <div className="chapter-text">
-          <Caged />
-        </div>
+        <div className="chapter-text"></div>
         <div className="chapter-image">
           <img src={image} />
         </div>
