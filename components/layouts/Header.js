@@ -22,7 +22,7 @@ const Header = () => {
           .header-container {
             font-size: 0.9rem;
             text-align: right;
-            padding-bottom: 10px;
+            height: 30px;
           }
 
           a {

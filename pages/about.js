@@ -1,5 +1,5 @@
-import Layout from '../components/layouts/Layout';
 import Link from 'next/link';
+import Layout from '../components/layouts/Layout';
 
 const About = () => {
   return (
@@ -11,9 +11,9 @@ const About = () => {
           I recently dug this up, a picture book I did for my final design
           project in high school - 10 years ago. It's weird reading back through
           it after all this time, the writing's definitely cringey and the
-          illustrations aren’t the best, nevertheless I still like the project.
-          Since my eagerness to draw has been reignited after so long, I figured
-          it would make a cool side project to paint over every single
+          illustrations aren’t the best - nevertheless, I still like the
+          project. Since my eagerness to draw has been reignited after so long,
+          I figured it would make a cool side project to paint over every single
           illustration from this book.
         </p>
 

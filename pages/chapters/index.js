@@ -1,73 +1,68 @@
-import { useState } from 'react';
+import { useRouter } from 'next/router';
 import Layout from '../../components/layouts/Layout';
 
-const About = () => {
-  const [image, setImage] = useState('/blue-city.jpg');
-  const text = 'tests';
+const Board = () => {
+  const router = useRouter();
+
+  const boardThumbnails = [
+    { name: 'blue city', src: '/blue-city.jpg', link: '/chapters/caged' },
+    { name: 'blue city', src: '/blue-city.jpg', link: '/chapters/caged' },
+    { name: 'blue city', src: '/blue-city.jpg', link: '/chapters/caged' },
+    { name: 'blue city', src: '/blue-city.jpg', link: '/chapters/caged' },
+    { name: 'blue city', src: '/blue-city.jpg', link: '/chapters/caged' },
+    { name: 'blue city', src: '/blue-city.jpg', link: '/chapters/caged' },
+    { name: 'blue city', src: '/blue-city.jpg', link: '/chapters/caged' },
+    { name: 'blue city', src: '/blue-city.jpg', link: '/chapters/caged' },
+    { name: 'blue city', src: '/blue-city.jpg', link: '/chapters/caged' },
+    { name: 'blue city', src: '/blue-city.jpg', link: '/chapters/caged' },
+  ];
+
+  const goToChapter = (link) => {
+    router.push(link);
+  };
 
   return (
     <Layout>
-      <div className="chapter-header">
-        <span className="chapter-button">&lt;</span>
-        <div>- BLUE CITY -</div>
-        <span className="chapter-button">&gt;</span>
+      <h1>Board</h1>
+
+      <div className="image-grid">
+        {boardThumbnails.map((item) => (
+          <img
+            className="grid-thumb"
+            src={item.src}
+            alt={item.name}
+            key={item.name}
+            onClick={() => goToChapter(item.link)}
+          />
+        ))}
       </div>
 
-      <div className="chapter-container">
-        <div className="chapter-text"></div>
-        <div className="chapter-image">
-          <img src={image} />
-        </div>
-      </div>
-      {/* <button onClick={() => setImage('/blue-city2.jpg')}>></button> */}
+      <style jsx>{`
+        h1 {
+          text-align: center;
+        }
 
-      <style jsx>
-        {`
-          .chapter-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 0 auto 10px;
-            padding: 10px 5px;
-          }
+        .image-grid {
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          grid-gap: 1px;
+          max-width: 1200px;
+          margin: auto;
+        }
 
-          .chapter-container {
-            display: flex;
-            flex-wrap: wrap-reverse;
-            justify-content: center;
-            margin-bottom: 40px;
-          }
+        .grid-thumb {
+          width: 100%;
+          cursor: pointer;
+        }
 
-          .chapter-text,
-          .chapter-image {
-            width: 40%;
-            min-width: 300px;
-            max-width: 475px;
+        @media only screen and (max-width: 600px) {
+          .image-grid {
+            grid-template-columns: repeat(3, 1fr);
           }
-
-          .chapter-text {
-            box-sizing: border-box;
-            text-align: justify;
-            align-self: center;
-            padding: 0 45px 0 15px;
-          }
-
-          .chapter-image img {
-            width: 100%;
-            border-radius: 2px;
-          }
-
-          .chapter-button {
-            background-color: black;
-            text-align: center;
-            border-radius: 2px;
-            cursor: pointer;
-            padding: 10px;
-          }
-        `}
-      </style>
+        }
+      `}</style>
     </Layout>
   );
 };
 
-export default About;
+export default Board;
