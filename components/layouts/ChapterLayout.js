@@ -1,16 +1,43 @@
+import { useRouter } from 'next/router';
 import Layout from './Layout';
 
-const ChapterLayout = ({ title, image, children }) => {
+const ChapterLayout = ({
+  title,
+  image,
+  children,
+  prevChapter,
+  nextChapter,
+}) => {
+  const router = useRouter();
+
+  const nextPage = () => {
+    router.push(`/chapters/${nextChapter}`);
+  };
+
+  const prevPage = () => {
+    router.push(`/chapters/${prevChapter}`);
+  };
+
   return (
     <Layout>
       <div className="chapter-header">
-        <span className="chapter-button">&lt;</span>
+        <span
+          className={`chapter-button ${prevChapter ? '' : 'hide'}`}
+          onClick={prevPage}
+        >
+          &lt;
+        </span>
         <div className="chapter-title">- {title} -</div>
-        <span className="chapter-button">&gt;</span>
+        <span
+          className={`chapter-button ${nextChapter ? '' : 'hide'}`}
+          onClick={nextPage}
+        >
+          &gt;
+        </span>
       </div>
 
       <div className="chapter-container">
-        <div className="chapter-text">{children}</div>
+        {children && <div className="chapter-text">{children}</div>}
         <div className="chapter-image">
           <img src={image} />
         </div>
@@ -64,6 +91,10 @@ const ChapterLayout = ({ title, image, children }) => {
             border-radius: 2px;
             cursor: pointer;
             padding: 10px;
+          }
+
+          .hide {
+            visibility: hidden;
           }
 
           @media only screen and (max-width: 680px) {

@@ -2,7 +2,7 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const Caged = () => {
   const title = 'Caged';
-  const image = '/blue-city.jpg';
+  const image = '/pics/caged.jpg';
 
   return (
     <ChapterLayout title={title} image={image}>
