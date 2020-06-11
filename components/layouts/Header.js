@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 const Header = () => {
-  const chapter = 'fly';
   return (
     <div className="header-container">
       <Link href="/about">

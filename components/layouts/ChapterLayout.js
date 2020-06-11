@@ -34,21 +34,23 @@ const ChapterLayout = ({ title, image, children }) => {
             display: flex;
             flex-wrap: wrap-reverse;
             justify-content: center;
-            margin-bottom: 40px;
+            margin: 0 auto 40px;
+            max-width: 1100px;
           }
 
           .chapter-text,
           .chapter-image {
             width: 40%;
             min-width: 300px;
-            max-width: 475px;
           }
 
           .chapter-text {
             box-sizing: border-box;
             text-align: justify;
             align-self: center;
-            padding: 0 45px 0 15px;
+            padding: 0 15px;
+            margin-right: 30px;
+            margin-top: -20px;
           }
 
           .chapter-image img {
@@ -62,6 +64,13 @@ const ChapterLayout = ({ title, image, children }) => {
             border-radius: 2px;
             cursor: pointer;
             padding: 10px;
+          }
+
+          @media only screen and (max-width: 680px) {
+            .chapter-text {
+              margin-right: 0;
+              margin-top: 0;
+            }
           }
         `}
       </style>
