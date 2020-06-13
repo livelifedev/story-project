@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import Layout from '../../components/layouts/Layout';
+import Layout from '../components/layouts/Layout';
 
 const Board = () => {
   const router = useRouter();
@@ -35,7 +35,7 @@ const Board = () => {
     { name: 'wishkingdom', src: '/thumbs/wishkingdom.jpg', link: '/chapters/wishkingdom' },
     { name: 'residents', src: '/thumbs/residents.jpg', link: '/chapters/residents' },
     { name: 'theking', src: '/thumbs/theking.jpg', link: '/chapters/theking' },
-    { name: 'oldforest', src: '/thumbs/ancientforest.jpg', link: '/chapters/oldforest' },
+    { name: 'oldforest', src: '/thumbs/oldforest.jpg', link: '/chapters/oldforest' },
     { name: 'hermit', src: '/thumbs/hermit.jpg', link: '/chapters/hermit' },
     { name: 'griffin', src: '/thumbs/griffin.jpg', link: '/chapters/griffin' },
     { name: 'tree', src: '/thumbs/tree.jpg', link: '/chapters/tree' },
@@ -45,7 +45,7 @@ const Board = () => {
   ];
 
   const goToChapter = (link) => {
-    router.push(link);
+    router.push(link).then(() => window.scrollTo(0, 0));
   };
 
   return (

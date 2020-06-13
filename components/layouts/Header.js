@@ -9,7 +9,7 @@ const Header = () => {
       <Link href="/chapters/cover">
         <a>Read</a>
       </Link>
-      <Link href="/chapters">
+      <Link href="/board">
         <a>Board</a>
       </Link>
       <Link href="/updates">
