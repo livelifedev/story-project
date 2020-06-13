@@ -13,7 +13,7 @@ const Index = () => {
           it after all this time, the writing's definitely cringey and the
           illustrations aren’t the best - nevertheless, I still like the
           project. Since my eagerness to draw has been reignited after so long,
-          I figured it would make a cool side project to paint over every single
+          I figured it'd make a cool side project to paint over every single
           illustration from this book.
         </p>
 
