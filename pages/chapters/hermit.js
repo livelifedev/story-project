@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Hermit = () => {
   const title = 'Hermit';
   const image = '/pics/hermit.jpg';
+  const prevChapter = 'oldforest';
+  const nextChapter = 'griffin';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         Inside the forest, it was proving extremely difficult to track the
         Master of Time.

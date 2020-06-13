@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Tree = () => {
   const title = 'Tree';
   const image = '/pics/tree.jpg';
+  const prevChapter = 'griffin';
+  const nextChapter = 'memories';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         With the griffin navigating through the forest, Crow finally made it
         there.

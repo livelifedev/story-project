@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const NewWorld = () => {
   const title = 'New World';
   const image = '/pics/newworld.jpg';
+  const prevChapter = 'sky';
+  const nextChapter = 'shepherd';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         As the boy lands, all his thoughts, emotions and senses are overwhelmed.
       </p>

@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const TheBoy = () => {
   const title = 'The Boy';
   const image = '/pics/theboy.jpg';
+  const prevChapter = 'nest';
+  const nextChapter = 'caged';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>This boy was a chimney sweep.</p>
 
       <p>

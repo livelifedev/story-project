@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Warmth = () => {
   const title = 'Warmth';
   const image = '/pics/warmth.jpg';
+  const prevChapter = 'sunnyvillage';
+  const nextChapter = 'storm';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         Crow is greeted by the curious villagers. They welcome him into their
         homes and ask for stories of his adventures.

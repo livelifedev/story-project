@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Griffin = () => {
   const title = 'Griffin';
   const image = '/pics/griffin.jpg';
+  const prevChapter = 'hermit';
+  const nextChapter = 'tree';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         “Take a rest and clear your thoughts and frustration. When you are
         ready, call out and the forest will send you aid.”

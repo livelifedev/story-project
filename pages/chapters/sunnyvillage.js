@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const SunnyVillage = () => {
   const title = 'Sunny Village';
   const image = '/pics/sunnyvillage.jpg';
+  const prevChapter = 'beautybeasts';
+  const nextChapter = 'warmth';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         Crow arrives at a small village - Sunny Village - is what the sign says.
         Very fitting, he thinks when compared to his home town.

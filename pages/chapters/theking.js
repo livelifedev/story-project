@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const TheKing = () => {
   const title = 'The King';
   const image = '/pics/theking.jpg';
+  const prevChapter = 'residents';
+  const nextChapter = 'oldforest';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>The oddest one of the kingdom - the King.</p>
 
       <p>

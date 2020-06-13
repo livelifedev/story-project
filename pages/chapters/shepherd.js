@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Shepherd = () => {
   const title = 'Bedtime Story';
   const image = '/pics/bedtimestory.jpg';
+  const prevChapter = 'newworld';
+  const nextChapter = 'beautybeasts';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>In this new world, the boy met many interesting individuals.</p>
 
       <p>

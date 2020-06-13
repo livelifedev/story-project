@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const EndOfJourney = () => {
   const title = 'End of Journey';
   const image = '/pics/endofjourney.jpg';
+  const prevChapter = 'consequence';
+  const nextChapter = 'luckyday';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         It has been a long journey now for Crow. He has seen the lands, crossed
         the seas, experienced many things, met wonderful people, met horrible

@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Abundance = () => {
   const title = 'Abundance';
   const image = '/pics/abundance.jpg';
+  const prevChapter = 'bluecity';
+  const nextChapter = 'underbelly';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>This city is so bizarre, Crow thought.</p>
 
       <p>

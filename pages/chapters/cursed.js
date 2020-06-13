@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Cursed = () => {
   const title = 'Cursed';
   const image = '/pics/cursed.jpg';
+  const prevChapter = 'soottown';
+  const nextChapter = 'nest';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         In this town, people are cursed with a plague birthed from the thick
         black smog of their own factories. The towns folk live in terror as

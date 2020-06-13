@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Consequence = () => {
   const title = 'Consequence';
   const image = '/pics/consequence.jpg';
+  const prevChapter = 'destruction';
+  const nextChapter = 'endofjourney';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         The consequence of that thirst of power and questionable scientific
         advancement - were machines of war.

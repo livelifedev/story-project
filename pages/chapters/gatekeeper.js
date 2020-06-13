@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Gatekeeper = () => {
   const title = 'Gatekeeper';
   const image = '/pics/gatekeeper.jpg';
+  const prevChapter = 'luckyday';
+  const nextChapter = 'wishkingdom';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         Transported to a magical realm. The surroundings look and feel like an
         illusion.

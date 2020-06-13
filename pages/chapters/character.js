@@ -4,7 +4,7 @@ const Character = () => {
   const title = 'The Character';
   const image = '/pics/character.jpg';
   const prevChapter = 'cover';
-  const nextChapter = null;
+  const nextChapter = 'bedtimestory';
 
   return (
     <ChapterLayout

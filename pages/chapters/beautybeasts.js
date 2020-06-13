@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const BeautyBeasts = () => {
   const title = 'Beauty & Beasts';
   const image = '/pics/beautybeasts.jpg';
+  const prevChapter = 'shepherd';
+  const nextChapter = 'sunnyvillage';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         Before parting ways the smiling shepherd left some parting words for
         Crow.

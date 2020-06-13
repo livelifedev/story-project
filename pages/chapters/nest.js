@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Nest = () => {
   const title = 'Nest';
   const image = '/pics/nest.jpg';
+  const prevChapter = 'cursed';
+  const nextChapter = 'theboy';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>However, there was one boy who stood out from the rest.</p>
 
       <p>A very peculiar young boy.</p>

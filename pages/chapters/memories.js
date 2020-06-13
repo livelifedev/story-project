@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Memories = () => {
   const title = 'Memories';
   const image = '/pics/memories.jpg';
+  const prevChapter = 'tree';
+  const nextChapter = 'masteroftime';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         Reaching the top thanks to the griffin, Crow finds a distorted space.
       </p>

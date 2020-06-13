@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const OldForest = () => {
   const title = 'Old Forest';
   const image = '/pics/oldforest.jpg';
+  const prevChapter = 'theking';
+  const nextChapter = 'hermit';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         Crow sets off on another journey to meet the Master of Time, in order to
         find the answer to his question.

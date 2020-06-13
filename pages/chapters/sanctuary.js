@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Sanctuary = () => {
   const title = 'Sanctuary';
   const image = '/pics/sanctuary.jpg';
+  const prevChapter = 'storm';
+  const nextChapter = 'bluecity';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>When Crow awoke, he felt very disoriented.</p>
 
       <p>

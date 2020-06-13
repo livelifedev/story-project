@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const Caged = () => {
   const title = 'Caged';
   const image = '/pics/caged.jpg';
+  const prevChapter = 'theboy';
+  const nextChapter = 'fly';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         One day, on the job cleaning a deep chimney, the boy stumbled upon a
         secret tunnel. He followed it and on the other end was an enormous

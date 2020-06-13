@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const LuckyDay = () => {
   const title = 'Lucky Day';
   const image = '/pics/luckyday.jpg';
+  const prevChapter = 'endofjourney';
+  const nextChapter = 'gatekeeper';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         Taking a wander to reflect on many things, a flicker of green light
         caught Crow's eye.

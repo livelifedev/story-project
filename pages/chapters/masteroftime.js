@@ -3,9 +3,16 @@ import ChapterLayout from '../../components/layouts/ChapterLayout';
 const MasterOfTime = () => {
   const title = 'Master of Time';
   const image = '/pics/masteroftime.jpg';
+  const prevChapter = 'memories';
+  const nextChapter = 'dreams';
 
   return (
-    <ChapterLayout title={title} image={image}>
+    <ChapterLayout
+      title={title}
+      image={image}
+      prevChapter={prevChapter}
+      nextChapter={nextChapter}
+    >
       <p>
         The chamber of the Master of Time, like a mini-forest, trees decorating
         the space, a waterfall as a backdrop and even a phoenix circling the
