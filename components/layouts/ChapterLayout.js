@@ -1,3 +1,4 @@
+import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/router';
 import Layout from './Layout';
 
@@ -9,6 +10,8 @@ const ChapterLayout = ({
   nextChapter,
 }) => {
   const router = useRouter();
+  const [imageLoading, setimageLoading] = useState(true);
+  const pageImage = useRef();
 
   const nextPage = () => {
     router.push(`/chapters/${nextChapter}`);
@@ -17,6 +20,16 @@ const ChapterLayout = ({
   const prevPage = () => {
     router.push(`/chapters/${prevChapter}`);
   };
+
+  const turnOffImageLoading = () => {
+    setimageLoading(false);
+  };
+
+  useEffect(() => {
+    if (pageImage.current.complete) {
+      turnOffImageLoading();
+    }
+  }, []);
 
   return (
     <Layout>
@@ -36,10 +49,15 @@ const ChapterLayout = ({
         </span>
       </div>
 
-      <div className="chapter-container">
+      <div className={`chapter-container ${imageLoading ? 'hide' : ''}`}>
         {children && <div className="chapter-text">{children}</div>}
         <div className="chapter-image">
-          <img src={image} />
+          <img
+            ref={pageImage}
+            onLoad={turnOffImageLoading}
+            src={image}
+            alt={title}
+          />
         </div>
       </div>
 
@@ -61,6 +79,7 @@ const ChapterLayout = ({
             display: flex;
             flex-wrap: wrap-reverse;
             justify-content: center;
+            align-items: center;
             margin: 0 auto 40px;
             max-width: 1100px;
           }
@@ -73,11 +92,10 @@ const ChapterLayout = ({
 
           .chapter-text {
             box-sizing: border-box;
-            text-align: justify;
+            word-spacing: 2px;
             align-self: center;
             padding: 0 15px;
             margin-right: 30px;
-            margin-top: -20px;
           }
 
           .chapter-image img {
@@ -100,7 +118,6 @@ const ChapterLayout = ({
           @media only screen and (max-width: 680px) {
             .chapter-text {
               margin-right: 0;
-              margin-top: 0;
             }
           }
         `}
