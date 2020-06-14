@@ -55,7 +55,7 @@ const ChapterLayout = ({
         {!imageLoading && children && (
           <div className="chapter-text">{children}</div>
         )}
-        <div className="chapter-image">
+        <div className={`chapter-image ${imageLoading ? 'hide' : ''}`}>
           <img
             ref={pageImage}
             onLoad={turnOffImageLoading}
