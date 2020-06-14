@@ -16,8 +16,8 @@ const TheBoy = () => {
       <p>This boy was a chimney sweep.</p>
 
       <p>
-        He would be constantly distracted and lost in his own thoughts. Everyone
-        in town found him very odd.
+        Constantly, he would be distracted and lost in his own thoughts.
+        Everyone in town found him very odd.
       </p>
 
       <p>When spoken to, he would say the most abnormal things:</p>

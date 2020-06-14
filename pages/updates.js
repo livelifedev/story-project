@@ -5,7 +5,7 @@ const Updates = () => {
     <Layout>
       <h1>Updates</h1>
 
-      <div className="update-text">12 of 35 illustrations done.</div>
+      <div className="update-text">13 of 35 illustrations done.</div>
 
       <style jsx>{`
         h1 {
