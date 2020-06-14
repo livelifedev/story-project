@@ -41,7 +41,11 @@ const ChapterLayout = ({
           &lt;
         </span>
         <div className="chapter-title">
-          {imageLoading ? 'Loading...' : `- ${title} -`}
+          {imageLoading ? (
+            <span className="loader">Loading...</span>
+          ) : (
+            `- ${title} -`
+          )}
         </div>
         <span
           className={`chapter-button ${nextChapter ? '' : 'hide'}`}
@@ -65,6 +69,10 @@ const ChapterLayout = ({
 
       <style jsx>
         {`
+          .loader {
+            color: #808080;
+          }
+
           .chapter-header {
             display: flex;
             justify-content: space-between;
