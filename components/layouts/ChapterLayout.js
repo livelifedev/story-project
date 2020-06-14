@@ -40,13 +40,7 @@ const ChapterLayout = ({
         >
           &lt;
         </span>
-        <div className="chapter-title">
-          {imageLoading ? (
-            <span className="loader">Loading...</span>
-          ) : (
-            `- ${title} -`
-          )}
-        </div>
+        <div className="chapter-title">- {title} -</div>
         <span
           className={`chapter-button ${nextChapter ? '' : 'hide'}`}
           onClick={nextPage}
@@ -54,6 +48,8 @@ const ChapterLayout = ({
           &gt;
         </span>
       </div>
+
+      {imageLoading && <div className="loader">Loading...</div>}
 
       <div className={`chapter-container ${imageLoading ? 'hide' : ''}`}>
         {children && <div className="chapter-text">{children}</div>}
@@ -71,6 +67,10 @@ const ChapterLayout = ({
         {`
           .loader {
             color: #808080;
+            position: absolute;
+            top: 40%;
+            width: 100%;
+            text-align: center;
           }
 
           .chapter-header {
