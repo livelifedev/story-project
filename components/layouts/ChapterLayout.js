@@ -124,7 +124,6 @@ const ChapterLayout = ({
           }
 
           .hide {
-            visibility: hidden;
           }
 
           @media only screen and (max-width: 680px) {
