@@ -7,9 +7,6 @@ const Updates = () => {
 
       <div className="updates-container">
         <div className="big">13 of 35 illustrations done.</div>
-        <div className="note">
-          *At some point I'll probably update the writing as well.
-        </div>
       </div>
 
       <style jsx>{`
@@ -26,10 +23,6 @@ const Updates = () => {
 
         .big {
           font-size: 2rem;
-        }
-
-        .note {
-          margin-top: 30px;
         }
       `}</style>
     </Layout>
