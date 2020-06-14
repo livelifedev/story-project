@@ -69,8 +69,8 @@ const ChapterLayout = ({
             color: #808080;
             position: absolute;
             top: 40%;
-            width: calc(100% - 16px);
-            text-align: center;
+            left: 50%;
+            margin-left: -35px;
           }
 
           .chapter-header {
