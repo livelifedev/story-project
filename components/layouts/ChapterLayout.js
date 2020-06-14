@@ -40,7 +40,9 @@ const ChapterLayout = ({
         >
           &lt;
         </span>
-        <div className="chapter-title">- {title} -</div>
+        <div className="chapter-title">
+          {imageLoading ? 'Loading...' : `- ${title} -`}
+        </div>
         <span
           className={`chapter-button ${nextChapter ? '' : 'hide'}`}
           onClick={nextPage}
