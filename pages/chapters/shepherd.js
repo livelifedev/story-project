@@ -13,10 +13,10 @@ const Shepherd = () => {
       prevChapter={prevChapter}
       nextChapter={nextChapter}
     >
-      <p>In this new world, the boy met many interesting individuals.</p>
+      <p>The boy met many interesting individuals in the new world.</p>
 
       <p>
-        The most memorable of the bunch, was the very first person he had met.
+        The most memorable of the bunch, was the very first person he met there.
         The smiling shepherd and his herd of smiling sheep.
       </p>
 
@@ -28,15 +28,14 @@ const Shepherd = () => {
       </p>
 
       <p>
-        This shepherd had an infectious smile, that carried over to the boy’s
-        face.
+        This shepherd had an infectious smile that even rubbed off on the boy.
       </p>
 
-      <p>“What is your name, young traveller?”</p>
+      <p>“So, do you have name young traveller?”</p>
 
-      <p>The boy paused and gave some thought.</p>
+      <p>“...</p>
 
-      <p>“My name is Crow."</p>
+      <p>“My name is Crow.”</p>
     </ChapterLayout>
   );
 };

@@ -14,7 +14,7 @@ const EndOfJourney = () => {
       nextChapter={nextChapter}
     >
       <p>
-        It has been a long journey now for Crow. He has seen the lands, crossed
+        It had been a long journey now for Crow. He had seen the lands, crossed
         the seas, experienced many things, met wonderful people, met horrible
         people and seen the destruction of the world.
       </p>

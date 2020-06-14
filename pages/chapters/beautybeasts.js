@@ -19,11 +19,6 @@ const BeautyBeasts = () => {
       </p>
 
       <p>
-        “There is still a half hour before your bedtime” - The grandfather said
-        to his grandson.
-      </p>
-
-      <p>
         “The world can be beautiful and can be ugly, you’ll discover that for
         yourself in your journey.”
       </p>

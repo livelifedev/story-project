@@ -21,7 +21,7 @@ const BedtimeStory = () => {
       </p>
 
       <p>
-        “Very well, let me tell you a tale to pass the time. it's a tale of a
+        “Very well, let me tell you a tale to pass the time. it is a tale of a
         very peculiar young boy and his journey into a new world…
       </p>
 

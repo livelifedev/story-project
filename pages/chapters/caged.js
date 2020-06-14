@@ -15,18 +15,14 @@ const Caged = () => {
     >
       <p>
         One day, on the job cleaning a deep chimney, the boy stumbled upon a
-        secret tunnel. He followed it and on the other end was an enormous
-        chamber, what he saw there troubled him.
+        tunnel to a hidden chamber - what he saw in there really troubled him.
       </p>
 
-      <p>
-        Chained down to ground was a gargantuan crow, the size of the chamber
-        itself.
-      </p>
+      <p>Chained down to ground in the darkness was a gargantuan crow.</p>
 
       <p>
-        The boy watched it and he saw a painful reflection... Gazing up towards
-        the sky, wanting to get out but trapped.
+        The boy watched it and saw a painful reflection... Gazing up towards the
+        sky, wanting to get out but trapped.
       </p>
 
       <p>It was here, the boy decided it was time… he released the shackles.</p>

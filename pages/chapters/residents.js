@@ -26,16 +26,20 @@ const Residents = () => {
 
       <p>“I am the kingdom’s jester and also a superhero!”</p>
 
-      <p>...These people are very weird, Crow thought.</p>
+      <p>“...</p>
 
       <p>
-        But he also found them very entertaining and had fun seeing the kingdom
-        with them.
+        “Nice to meet you.” Crow politely replied back. Although, he found them
+        both very weird.
       </p>
 
       <p>
-        “Go speak with my father, the king. He will help you with your wish.” -
-        Said the ghost princess, Cheerfully."
+        They show him around the kingdom, which ends up being a very fun time.
+      </p>
+
+      <p>
+        “Go speak with my father, the king. He will help you with your wish.”
+        The ghost princess said cheerfully.
       </p>
     </ChapterLayout>
   );

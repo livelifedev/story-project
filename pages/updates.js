@@ -5,19 +5,31 @@ const Updates = () => {
     <Layout>
       <h1>Updates</h1>
 
-      <div className="update-text">13 of 35 illustrations done.</div>
+      <div className="updates-container">
+        <div className="big">13 of 35 illustrations done.</div>
+        <div className="note">
+          *At some point I'll probably update the writing as well.
+        </div>
+      </div>
 
       <style jsx>{`
         h1 {
           text-align: center;
         }
 
-        .update-text {
+        .updates-container {
           text-align: center;
           width: 80%;
           margin: auto;
-          font-size: 2rem;
           padding-top: 50px;
+        }
+
+        .big {
+          font-size: 2rem;
+        }
+
+        .note {
+          margin-top: 30px;
         }
       `}</style>
     </Layout>

@@ -14,7 +14,7 @@ const Fly = () => {
       nextChapter={nextChapter}
     >
       <p>
-        Riding atop the crow, they pierce through the wall in the sky. This
+        Together with the crow, they pierce through the wall in the sky. This
         marked the beginning of the travelling chimney sweep and his journey.
       </p>
     </ChapterLayout>

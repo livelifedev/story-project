@@ -14,11 +14,11 @@ const OldForest = () => {
       nextChapter={nextChapter}
     >
       <p>
-        Crow sets off on another journey to meet the Master of Time, in order to
-        find the answer to his question.
+        Following the advice of the King, Crow set off to meet the Master of
+        Time - hoping to find the answer to his question.
       </p>
 
-      <p>He make his way to the Old Forest.</p>
+      <p>He made his way to the Old Forest.</p>
 
       <p>
         The Myth surrounding this forest say that first civilisation of mankind
@@ -26,7 +26,7 @@ const OldForest = () => {
       </p>
 
       <p>
-        The ruins still exist here, but now a vast forest has taken the
+        The ruins still exist here, but now a vast forest has taken over the
         civilisation's place.
       </p>
     </ChapterLayout>

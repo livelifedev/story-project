@@ -7,7 +7,7 @@ const Dreams = () => {
 
   return (
     <ChapterLayout title={title} image={image} prevChapter={prevChapter}>
-      <p>Good night.</p>
+      <p>Good night...</p>
 
       <p>May your dreams be fun and sweet.</p>
     </ChapterLayout>

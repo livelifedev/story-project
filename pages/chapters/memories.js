@@ -14,13 +14,14 @@ const Memories = () => {
       nextChapter={nextChapter}
     >
       <p>
-        Reaching the top thanks to the griffin, Crow finds a distorted space.
+        Arriving at the top thanks to the griffin's help, Crow finds a distorted
+        space.
       </p>
 
-      <p>Shards of light scatter all around.</p>
+      <p>Shards of light scattered all around.</p>
 
       <p>
-        Reflecting in those shards are the memories of Crow. The memories of his
+        Reflected in those shards were the memories of Crow. The memories of his
         journey and the memories before then. They were all replaying in front
         of him.
       </p>
@@ -28,7 +29,7 @@ const Memories = () => {
       <p>“So, this is my life.” - He remarks and sits down to watch.</p>
 
       <p>
-        After finishing, Crow approaches the mysterious creature standing at the
+        After finishing, Crow approaches the mystical being standing at the
         centre of the space - a titan, its head was a spherical chamber.
       </p>
 

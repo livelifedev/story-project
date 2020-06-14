@@ -18,14 +18,14 @@ const NewWorld = () => {
       </p>
 
       <p>
-        A realm of colour and beauty which could only be described as a fantasy
-        for him. The clean air filled his lungs, it was easy to breathe. He
-        could feel the sun blanket over him and the wind dance around him. His
-        mind was clear and his body felt light.
+        A realm of colour and beauty which could only be described as a fantasy.
+        The clean air filled his lungs, it was easy to breathe. He could feel
+        the sun blanket over him and the wind dance around him. His mind was
+        clear and his body felt light.
       </p>
 
       <p>
-        Excitement, a new feeling stirred inside him. This was the new world he
+        Excitement - a new feeling stirred inside him, this was the new world he
         was stepping into.
       </p>
     </ChapterLayout>

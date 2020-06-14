@@ -15,7 +15,6 @@ const SunnyVillage = () => {
     >
       <p>
         Crow arrives at a small village - Sunny Village - is what the sign says.
-        Very fitting, he thinks when compared to his home town.
       </p>
 
       <p>So peaceful.</p>

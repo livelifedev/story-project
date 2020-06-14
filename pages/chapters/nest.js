@@ -19,7 +19,7 @@ const Nest = () => {
 
       <p>
         This boy loved to climb high places and was always seen nesting in the
-        tallest tower, just forever gazing up towards the sky.
+        tallest tower - just forever gazing up towards the sky.
       </p>
     </ChapterLayout>
   );

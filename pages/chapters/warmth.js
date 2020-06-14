@@ -14,7 +14,7 @@ const Warmth = () => {
       nextChapter={nextChapter}
     >
       <p>
-        Crow is greeted by the curious villagers. They welcome him into their
+        He is greeted by the curious villagers. They welcome him into their
         homes and ask for stories of his adventures.
       </p>
 
@@ -23,9 +23,8 @@ const Warmth = () => {
       <p>They listen with the utmost interest.</p>
 
       <p>
-        The nights in this village were filled with home-cooked meals and family
-        banter, something the travelling chimney sweep had never experienced
-        before.
+        The nights in this village were filled with home cooked meals and family
+        banter, something Crow had never experienced before.
       </p>
 
       <p>It was very warm.</p>

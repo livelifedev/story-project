@@ -13,7 +13,7 @@ const Abundance = () => {
       prevChapter={prevChapter}
       nextChapter={nextChapter}
     >
-      <p>This city is so bizarre, Crow thought.</p>
+      <p>This city is so bizarre, he thought.</p>
 
       <p>
         Not sure whether to laugh in amusement or frown with judgement at what

@@ -13,10 +13,9 @@ const Sanctuary = () => {
       prevChapter={prevChapter}
       nextChapter={nextChapter}
     >
-      <p>When Crow awoke, he felt very disoriented.</p>
-
       <p>
-        He was underwater. - Though, strangely enough he could breathe again.
+        Crow awoke feeling disoriented - he was underwater, though strangely
+        enough he could breathe again.
       </p>
 
       <p>Appearing before him was a mermaid with gentle blue eyes.</p>
@@ -25,7 +24,7 @@ const Sanctuary = () => {
 
       <p>She had saved him from drowning.</p>
 
-      <p>“Welcome to the Sanctuary.”</p>
+      <p>“Welcome to the Sanctuary.</p>
 
       <p>
         “Hurt sea creatures come here to rest and recover. Please, stay as long

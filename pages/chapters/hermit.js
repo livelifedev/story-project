@@ -14,16 +14,16 @@ const Hermit = () => {
       nextChapter={nextChapter}
     >
       <p>
-        Inside the forest, it was proving extremely difficult to track the
-        Master of Time.
+        Inside, it proved extremely difficult to track the Master of Time, no
+        clues could be found.
       </p>
 
       <p>Crow was losing hope, when he is approached.</p>
 
       <p>
-        The hermit - he had a towering figure and a staff exuding a mysterious
-        aura. He was a descendant of the original civilisation and had been
-        watching Crow for some time.
+        A towering figure, holding a staff exuding a mysterious aura. He was a
+        descendant of the original civilisation and had been watching Crow for
+        some time.
       </p>
 
       <p>“You, what is your purpose in this forest?”</p>

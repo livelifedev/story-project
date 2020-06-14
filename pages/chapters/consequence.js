@@ -15,7 +15,7 @@ const Consequence = () => {
     >
       <p>
         The consequence of that thirst of power and questionable scientific
-        advancement - were machines of war.
+        advancement - were machines of war - and the world in ruins.
       </p>
     </ChapterLayout>
   );

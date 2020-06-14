@@ -25,14 +25,14 @@ const TheKing = () => {
         Crow to understand him.
       </p>
 
-      <p>“…riddle, …philosophy, …riddle, …philosophy.”</p>
+      <p>“…riddle, …philosophy, …riddle, …philosophy.</p>
 
       <p>“Do you understand what I am saying?”</p>
 
       <p>Crow stood confused and speechless.</p>
 
       <p>
-        “Anyway, when you go back to your world, go visit the Master of Time. He
+        “Anyhow, when you go back to your world, go visit the Master of Time. He
         will be able to help you find your answer."
       </p>
     </ChapterLayout>

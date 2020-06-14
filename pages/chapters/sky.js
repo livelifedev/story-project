@@ -15,8 +15,12 @@ const Sky = () => {
     >
       <p>
         Moments after, the boy is blinded by a brightness his eyes were not
-        prepared for. The glorious blue sky, dressed in an endless string of
-        majestic white clouds.
+        prepared for.
+      </p>
+
+      <p>
+        The glorious blue sky, dressed in an endless string of majestic white
+        clouds.
       </p>
 
       <p>

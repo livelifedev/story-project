@@ -26,7 +26,7 @@ const Index = () => {
         <p>
           P.S. I've pixelated the images that aren’t done yet, which at this
           point is most of them!! Also, I quickly hacked this website together,
-          so not the prettiest thing.
+          so it's not the prettiest thing.
         </p>
       </div>
 

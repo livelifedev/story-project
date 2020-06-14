@@ -14,7 +14,7 @@ const Madness = () => {
       nextChapter={nextChapter}
     >
       <p>
-        The troubles of the world continued rapidly escalating. It was at the
+        The troubles of the world only continued to escalate. It was at the
         stage where it was all madness.
       </p>
 

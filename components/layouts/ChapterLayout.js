@@ -105,6 +105,7 @@ const ChapterLayout = ({
           .chapter-text {
             box-sizing: border-box;
             word-spacing: 2px;
+            letter-spacing: 1px;
             align-self: center;
             padding: 0 15px;
             margin-right: 30px;

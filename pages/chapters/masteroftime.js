@@ -20,26 +20,29 @@ const MasterOfTime = () => {
       </p>
 
       <p>
-        At the centre of the chamber, an earthy column stood. There, sat the
+        At the centre of the chamber stood an earthy column, and there sat the
         Master of Time in his throne.
       </p>
 
       <p>
         “I’ve been expecting you, Crow. I am Grandfather Time, the Master of
-        Time.”
+        Time.
       </p>
 
       <p>“Go ahead and ask your question, Crow.”</p>
 
-      <p>Crow looked him in the eye and spoke.</p>
+      <p>Crow looked him in the eye.</p>
 
       <p>
         “I did have a question I wanted to ask, a question I trudged through the
-        Old Forest for, travelled the world hoping to find, a question I’ve been
-        asking myself for as far as I can remember.” -
+        Old Forest for - travelled the world desiring to find - a question I’ve
+        been asking myself for as far as I can remember.
       </p>
 
-      <p>“But... I’ve found my answer. I don’t need to ask it anymore.”</p>
+      <p>
+        “However... I’ve already found my answer. I don’t need to ask it
+        anymore.”
+      </p>
 
       <p>Crow looked very content, as a soft smile appeared on his face.</p>
 

@@ -18,18 +18,19 @@ const Storm = () => {
         venture.
       </p>
 
-      <p>Not all was was good.</p>
+      <p>Not all was good.</p>
 
       <p>
-        Crossing the seas, he became exposed to many nasty things of the world.
+        Crossing the seas, he became exposed to many of the cruel acts in the
+        world.
       </p>
 
       <p>
-        It felt very cold and heavy all of a sudden. Turning pitch black, it
-        became hard to breathe.
+        Suddenly, a very cold and heavy feeling hits him - it turns pitch black
+        and becomes hard to breathe.
       </p>
 
-      <p>He had fallen in.</p>
+      <p>Crow had fallen in.</p>
     </ChapterLayout>
   );
 };
