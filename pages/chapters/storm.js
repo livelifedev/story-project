@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const Storm = () => {
-  const title = 'Storm';
+  const title = '14. Storm';
   const image = '/pics/storm.jpg';
   const prevChapter = 'warmth';
   const nextChapter = 'sanctuary';

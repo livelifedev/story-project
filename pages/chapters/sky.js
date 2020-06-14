@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const Sky = () => {
-  const title = 'Sky';
+  const title = '8. Sky';
   const image = '/pics/sky.jpg';
   const prevChapter = 'fly';
   const nextChapter = 'newworld';

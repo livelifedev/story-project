@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const Sanctuary = () => {
-  const title = 'Sanctuary';
+  const title = '15. Sanctuary';
   const image = '/pics/sanctuary.jpg';
   const prevChapter = 'storm';
   const nextChapter = 'bluecity';

@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const LuckyDay = () => {
-  const title = 'Lucky Day';
+  const title = '23. Lucky Day';
   const image = '/pics/luckyday.jpg';
   const prevChapter = 'endofjourney';
   const nextChapter = 'gatekeeper';

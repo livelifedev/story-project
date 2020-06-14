@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const TheBoy = () => {
-  const title = 'The Boy';
+  const title = '5. The Boy';
   const image = '/pics/theboy.jpg';
   const prevChapter = 'nest';
   const nextChapter = 'caged';

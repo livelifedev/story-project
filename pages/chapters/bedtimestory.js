@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const BedtimeStory = () => {
-  const title = 'Bedtime Story';
+  const title = '1. Bedtime Story';
   const image = '/pics/bedtimestory.jpg';
   const prevChapter = 'character';
   const nextChapter = 'soottown';

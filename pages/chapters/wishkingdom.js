@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const WishKingdom = () => {
-  const title = 'Wish Kingdom';
+  const title = '25. Wish Kingdom';
   const image = '/pics/wishkingdom.jpg';
   const prevChapter = 'gatekeeper';
   const nextChapter = 'residents';

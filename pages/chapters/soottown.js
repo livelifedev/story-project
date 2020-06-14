@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const SootTown = () => {
-  const title = 'Soot Town';
+  const title = '2. Soot Town';
   const image = '/pics/soottown.jpg';
   const prevChapter = 'bedtimestory';
   const nextChapter = 'cursed';

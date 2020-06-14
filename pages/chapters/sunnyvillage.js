@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const SunnyVillage = () => {
-  const title = 'Sunny Village';
+  const title = '12. Sunny Village';
   const image = '/pics/sunnyvillage.jpg';
   const prevChapter = 'beautybeasts';
   const nextChapter = 'warmth';

@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const Tree = () => {
-  const title = 'Tree';
+  const title = '31. Tree';
   const image = '/pics/tree.jpg';
   const prevChapter = 'griffin';
   const nextChapter = 'memories';

@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const Hermit = () => {
-  const title = 'Hermit';
+  const title = '29. Hermit';
   const image = '/pics/hermit.jpg';
   const prevChapter = 'oldforest';
   const nextChapter = 'griffin';

@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const MasterOfTime = () => {
-  const title = 'Master of Time';
+  const title = '33. Master of Time';
   const image = '/pics/masteroftime.jpg';
   const prevChapter = 'memories';
   const nextChapter = 'dreams';

@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const Madness = () => {
-  const title = 'Madness';
+  const title = '19. Madness';
   const image = '/pics/madness.jpg';
   const prevChapter = 'underbelly';
   const nextChapter = 'destruction';

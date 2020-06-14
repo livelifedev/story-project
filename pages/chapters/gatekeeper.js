@@ -1,7 +1,7 @@
 import ChapterLayout from '../../components/layouts/ChapterLayout';
 
 const Gatekeeper = () => {
-  const title = 'Gatekeeper';
+  const title = '24. Gatekeeper';
   const image = '/pics/gatekeeper.jpg';
   const prevChapter = 'luckyday';
   const nextChapter = 'wishkingdom';
