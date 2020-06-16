@@ -35,7 +35,7 @@ const Gatekeeper = () => {
 
       <p>“My wish is to find whatever it is I’m seeking.”</p>
 
-      <p>It was ambiguous wish, but Crow answered honestly.</p>
+      <p>It was an ambiguous wish, but Crow answered honestly.</p>
 
       <p>The gates open.</p>
     </ChapterLayout>

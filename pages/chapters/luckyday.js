@@ -26,8 +26,8 @@ const LuckyDay = () => {
       </p>
 
       <p>
-        The leprechaun spoke a bit like a con man, thought Crow. But also
-        enchanted by his magical green swag and ever so curios of the 'special'
+        The leprechaun spoke a bit like a con man, Crow thought - but also
+        enchanted by his magical green swag and ever so curious of the 'special'
         reward, he asked -
       </p>
 

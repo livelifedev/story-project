@@ -21,8 +21,8 @@ const OldForest = () => {
       <p>He made his way to the Old Forest.</p>
 
       <p>
-        The Myth surrounding this forest say that first civilisation of mankind
-        stood here, it flourished and perished with time.
+        The Myth surrounding this forest say that the first civilisation of
+        mankind stood here, it flourished and perished with time.
       </p>
 
       <p>

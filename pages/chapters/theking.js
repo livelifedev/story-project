@@ -16,8 +16,8 @@ const TheKing = () => {
       <p>The oddest one of the kingdom - the King.</p>
 
       <p>
-        Dressed in a bold, gold and black striped gown, he had unkempt hair and
-        a black crown to top it off.
+        Dressed in a bold, gold and black striped gown, he had unkempt black
+        hair and a black crown to top it off.
       </p>
 
       <p>
