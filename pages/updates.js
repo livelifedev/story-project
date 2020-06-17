@@ -6,7 +6,7 @@ const Updates = () => {
       <h1>Updates</h1>
 
       <div className="updates-container">
-        <div className="big">13 of 35 illustrations done.</div>
+        <div className="big">14 of 35 illustrations done.</div>
       </div>
 
       <style jsx>{`
